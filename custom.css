@@ -1,0 +1,267 @@
+/**********||=General||**********/
+
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+	list-style-type: none;
+
+}
+
+body {
+	
+	font-family: georgia sans-serif;
+}
+
+.container {
+
+}
+
+
+/**********||=header||**********/
+
+.bdtm h1 {
+	font-size: 30px;
+	margin-top: 10px;
+	color: green;
+	font-weight: bold;
+	border-left: 2px solid #f30c3d;
+
+}
+
+.bdtm h1 small {
+	color: #fe9c9c;
+	font-weight: bold;
+}
+
+#bdtmm {
+	float: right;
+}
+#bdtmm input {
+	height: 33px;
+	width: 220px;
+	padding-left: 10px;
+	padding-top: 7px;
+	background: #bef3cb;
+	outline: none;	
+	border:none;
+	border-radius: 16px;
+
+}
+
+#bdtmm button {
+	margin-top: 10px;
+	margin-left: -38px;
+	border-radius: 10px;
+	border:none;
+	background: #bef3cb;
+	color: green;
+
+}
+
+/**********||=navegitation||**********/
+
+nav {
+	background: #222222;
+	border-bottom: 3px solid green;
+	border-top: 2px solid #f30c3d;
+	
+}
+
+#hide ul li small {
+	display: block;
+	text-transform: lowercase;
+}
+#hide ul li small strong {
+	text-transform: uppercase;
+}
+
+#hide ul {
+	margin-top: 34px;
+}
+
+#hide ul li .caret {
+	float: right;
+	margin-top: -9px;
+}
+
+.dropdown-menu {
+	background: #828282;
+	min-width: 100px;
+}
+
+.dropdown-menu li a {
+	border-right: none;
+	color: green;
+}
+
+.dropdown-menu li a:hover {
+	color: red;
+	background: #282828;
+}
+
+#hide ul li a{
+	color: #f30c3d;
+}
+
+#hide ul li a:hover, #hide ul li.active a {
+	color: green;	
+}
+
+#hide ul li  {
+	float: left;
+	border-right: 1px solid #828282;
+	margin-left:20px;
+	padding-right: 20px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+#hide ul li:last-child {
+	border-right: none;
+
+}
+
+/**********||=banner-area||**********/
+
+.banner-area {
+	background: #333333;
+	height: 420px;
+	border-bottom: 4px solid green;
+}
+
+.imgcon {
+	width: 100%;
+	height: 380px;
+	position: relative;
+	margin:15px auto;
+}
+
+#img {
+	width: 100%;
+	height: 380px;
+	border:4px solid #f30c3d;
+	position: absolute;
+}
+
+
+.LH {
+	position: absolute;
+	top: 45%;
+	left: 15px;
+	color:red;
+}
+
+.RH {
+	position: absolute;
+	top: 45%;
+	right: 10px;
+	color:red;
+}
+
+/**********||=qutation||**********/
+
+
+blockquote {
+	font-style: italic;
+	font-weight: 700;
+	font-size: 32px;
+	text-align: center;
+	color: #2a512a;
+	margin-top: 20px;
+
+}
+
+.coach {
+	font-style: italic;
+	color: #c60909;
+	float: right;
+}
+
+
+
+
+/**********||=hr||**********/
+
+hr {
+	border-top: 2px solid #e3d0d0;
+	margin: 30px 0px;
+
+}
+
+/**********||=down section||**********/
+
+.boxx {
+	width: 50%;
+	float: left;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.boxx img {
+	float: left;
+	margin-top: 14px;
+}
+
+
+.boxx .tontent {
+	float: right;
+	width: 70%;
+}
+
+.masrafi {
+	float: left;
+	display: block;
+	width: 50%;
+	margin-top: 20px;
+}
+
+.masrafi img, .shakib img {
+	padding-bottom: 20px;
+}
+
+.masrafi a {
+	padding-right: 10px;
+}
+
+.shakib {
+	float: right;
+	display: block;
+	width: 50%;
+	margin-top: 20px;
+}
+
+/**********||= footer||**********/
+
+footer {
+	background:#222222; 
+	color: #908888;
+}
+
+.bbdd h6 {
+	font-size: 24px;
+
+}
+.bbdd img {
+	margin:20px 0px;
+	border:3px solid #c2a4a4;
+
+
+}
+
+
+.bbdd ul li {
+	margin-top: 20px;
+	border-bottom: 1px solid #c2a4a4;
+}
+
+.bbdd p {
+  margin-top: 10px;
+}
+
+
+
+.cpr p {
+	background:#362a2a;
+	padding:8px 0px;
+}
